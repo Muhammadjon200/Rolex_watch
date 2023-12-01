@@ -149,28 +149,22 @@ main .sidline_text p {
   font-size: 20px;
   cursor: pointer;
 }
-main .side_line {
-  border: 1px solid white;
-  width: 95%;
-  height: 600px;
-  background-color: black;
-  box-shadow: -2px -2px -20px -40px grey;
-  margin: auto;
-  overflow-x: auto;
+main .card_big {
   -webkit-overflow-scrolling: touch;
-  display: flex;
-  align-items: center;
-}
-main .side_line .card_big {
-  display: flex;
-  width: 100%;
+  overflow: auto;
+  width: 90%;
   flex-shrink: 0;
-  height: 400px;
+  height: 100px;
   color: black;
 }
-main .side_line .card_big .card {
-  width: 300px;
+main .card_big .incard {
+  width: 100%;
   height: 450px;
   border-radius: 20px;
-  background-color: grey;
+  display: flex;
+}
+main .card_big .incard .card {
+  width: 300px;
+  height: 400px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

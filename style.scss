@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Edu+TAS+Beginner:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Manrope:wght@200&family=Play&family=Rubik:wght@300&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap');
 
-body{
+body {
     background-color: black;
 }
 
@@ -73,25 +73,29 @@ body{
                 box-shadow: 4px 1px 100px 66px rgba(0, 0, 0, 1) inset;
             }
         }
-        .enter_footer{
+
+        .enter_footer {
             width: 90%;
             height: 500px;
             display: flex;
             align-items: center;
             justify-content: space-around;
             font-family: Cinzel;
-            .footer_text{
-                p{
+
+            .footer_text {
+                p {
                     font-size: 25px;
                     color: #e4b248;
                 }
-                h1{
+
+                h1 {
                     font-size: 40px;
                     color: #e4b248;
                 }
             }
-            .footer_next{
-                img{
+
+            .footer_next {
+                img {
                     cursor: pointer;
                 }
             }
@@ -99,100 +103,104 @@ body{
     }
 }
 
-header{
+header {
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #EEDABC;
-    .head{
+
+    .head {
         width: 90%;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .head_element{
+
+        .head_element {
             display: flex;
             gap: 30px;
-            a{
+
+            a {
                 text-decoration: none;
                 font-size: 24px;
                 font-family: Cinzel;
                 color: #EEDABC;
-            }   
+            }
         }
-        .elenemt_img{
-            img{
+
+        .elenemt_img {
+            img {
                 width: 150px;
                 height: 50px;
             }
         }
-        .sarch{
-            img{
+
+        .sarch {
+            img {
                 cursor: pointer;
             }
         }
     }
 }
 
-main{
-    .head_text{
+main {
+    .head_text {
         width: 100%;
         height: 100px;
         border-bottom: 1px solid #EEDABC;
         display: flex;
         align-items: center;
         justify-content: center;
-        h1{
+
+        h1 {
             font-size: 50px;
             font-family: Cinzel;
             color: #EEDABC;
         }
     }
 
-    .sidline_text{
+    .sidline_text {
         width: 100%;
         height: 250px;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        h1{
+
+        h1 {
             color: white;
             font-size: 30px;
             font-family: Readex pro;
             font-weight: 300;
         }
-        p{
+
+        p {
             color: #EEDABC;
             font-size: 20px;
             cursor: pointer;
         }
     }
 
-    .side_line{
-        border: 1px solid white;
-        width: 95%;
-        height: 600px;
-        background-color: black;
-        box-shadow: -2px -2px -20px -40px grey;
-        margin: auto;
-        overflow-x: auto;
+
+    .card_big {
         -webkit-overflow-scrolling: touch;
-        display: flex;
-        align-items: center;
-        .card_big{
-            display: flex;
+        overflow: auto;
+        width: 90%;
+        flex-shrink: 0;
+        height: 100px;
+        color: black;
+
+        .incard {
             width: 100%;
-            flex-shrink: 0;
-            height: 400px;
-            color: black;
-            .card{
+            height: 450px;
+            border-radius: 20px;
+            display: flex;
+             .card{
                 width: 300px;
-                height: 450px;
-                border-radius: 20px;
-                background-color: grey;
-            }
+                height: 400px;
+                background-color: red;
+             }
         }
     }
 }
