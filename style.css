@@ -1,1 +1,176 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Edu+TAS+Beginner:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Manrope:wght@200&family=Play&family=Rubik:wght@300&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.enter {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enter .enter_container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.enter .enter_container .enter_head {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.enter .enter_container .enter_head .center {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.enter .enter_container .enter_head .center h1 {
+  color: #e4b248;
+  font-family: Cinzel;
+}
+.enter .enter_container .enter_main {
+  position: relative;
+  width: auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enter .enter_container .enter_main img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+.enter .enter_container .enter_main .img_con {
+  z-index: 12;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 4px 1px 100px 66px rgb(0, 0, 0) inset;
+}
+.enter .enter_container .enter_footer {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Cinzel;
+}
+.enter .enter_container .enter_footer .footer_text p {
+  font-size: 25px;
+  color: #e4b248;
+}
+.enter .enter_container .enter_footer .footer_text h1 {
+  font-size: 40px;
+  color: #e4b248;
+}
+.enter .enter_container .enter_footer .footer_next img {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #EEDABC;
+}
+header .head {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head .head_element {
+  display: flex;
+  gap: 30px;
+}
+header .head .head_element a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Cinzel;
+  color: #EEDABC;
+}
+header .head .elenemt_img img {
+  width: 150px;
+  height: 50px;
+}
+header .head .sarch img {
+  cursor: pointer;
+}
+
+main .head_text {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #EEDABC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .head_text h1 {
+  font-size: 50px;
+  font-family: Cinzel;
+  color: #EEDABC;
+}
+main .sidline_text {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .sidline_text h1 {
+  color: white;
+  font-size: 30px;
+  font-family: Readex pro;
+  font-weight: 300;
+}
+main .sidline_text p {
+  color: #EEDABC;
+  font-size: 20px;
+  cursor: pointer;
+}
+main .side_line {
+  border: 1px solid white;
+  width: 95%;
+  height: 600px;
+  background-color: black;
+  box-shadow: -2px -2px -20px -40px grey;
+  margin: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  align-items: center;
+}
+main .side_line .card_big {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  height: 400px;
+  color: black;
+}
+main .side_line .card_big .card {
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
